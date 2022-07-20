@@ -1,0 +1,10 @@
+#bitwise operations
+a=int(input("enter the value of a"))
+b=int(input("enter the value of b"))
+print(a&b)
+print(a|b)
+print(~a)
+print(a^b)
+print(a>>b)
+print(a<<b)
+print(bin(a))
