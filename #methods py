@@ -1,0 +1,12 @@
+a=10
+b=20
+list1 = ['alpha','gamma','beta','delta']
+list2 = ['d','c','b','a']
+list3 = [10,20,30,40,]
+#print(min(list3))
+#print(tuple(list1))
+#zipped= zip(list2,list1)
+#print(set(list2))
+#print(dict(zipped))
+list1.append(b)
+print(list1,)
