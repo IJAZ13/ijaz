@@ -1,0 +1,10 @@
+a=float(input("enter the value of a"))
+b=float(input("enter the value of b"))
+sum=a+b
+sub=a-b
+div=a/b
+multi=a*b
+print(sub)
+print(sum)
+print(div)
+print(multi)
