@@ -1,0 +1,16 @@
+import csv
+import matplotlib.pyplot as plt
+
+x = []
+y = []
+
+with open('netflix.csv','r') as csvFile:
+    plots = csv.DictReader(csvFile, delimiter = ',')
+
+    for row in plots:
+        x.append(row['Year'])
+        y.append(row['Duration'])
+
+plt.bar(x, y, color = 'g')
+
+plt.show()
